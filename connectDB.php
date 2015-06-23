@@ -24,6 +24,9 @@ function connect_DB(){
     function doSmthThour($a, $b){
         //do somethink else
     }
+    function doSmthFive($a, $b){
+        //do somethink else
+    }
     //Подключение к БД
     mysql_connect($server, $username, $password) or die ('No connect to Data Base');
     //Опять ставим кодировку на таблицу!!!
@@ -32,6 +35,5 @@ function connect_DB(){
 
     //Открытие сессии
     session_start();
-
 }
 ?>
