@@ -21,6 +21,9 @@ function connect_DB(){
 	function doSmthThree($a, $b){
 			//do somethink else
 	}
+    function doSmthThour($a, $b){
+        //do somethink else
+    }
     //Подключение к БД
     mysql_connect($server, $username, $password) or die ('No connect to Data Base');
     //Опять ставим кодировку на таблицу!!!
