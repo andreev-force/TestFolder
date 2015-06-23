@@ -15,7 +15,9 @@ function connect_DB(){
 	*/
     //Языковая настройка
     setlocale(LC_ALL, 'ru_RU.CP1251');
-
+	function doSmthTwo($a, $b){ //Новое изменеие
+			//do somethink;
+	}
     //Подключение к БД
     mysql_connect($server, $username, $password) or die ('No connect to Data Base');
     //Опять ставим кодировку на таблицу!!!
